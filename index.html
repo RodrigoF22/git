@@ -5,17 +5,26 @@
     <meta charset="UTF-8"> <!-- configuración del lenguaje -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- responsivo -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- responsivo -->
+    <link rel="stylesheet" href="./css/index.css">
     <title>Clase02</title> <!-- título de la ventana del navegador -->
+
+    <style>
+        p{
+            color:blue;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+        }
+    </style>
+    
 </head>
 <body> <!-- cuerpo de la página web -->
 
     <header>
-        <h2>Soy el Header de la página</h2>
+        <h2 class="centrar">Soy el Header de la página</h2>
     </header>
     <nav>
-        <h2>Soy la navegación</h2>
+        <h2 class="soloYo">Soy la navegación</h2>
         <!-- listas desordenadas -->
-        <ul>
+        <ul class="centrar">
             <li>
                 <a href="./index.html">HOME</a>
             </li>
@@ -28,7 +37,7 @@
         </ul>
     </nav>
     <main>
-        <h1>Etiqueta de título nivel 1</h1>  
+        <h1 style="color: green; font-size: 60px;" >Etiqueta de título nivel 1</h1>
 
         <hr>
         <section>
@@ -40,12 +49,12 @@
 
             <article>
                 <h3>Los alimentos</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, atque voluptate? Esse similique, quidem nisi, nihil reprehenderit earum maiores distinctio, corporis adipisci aliquid itaque debitis nemo et sit incidunt provident!</p>
+                <p id="mi_parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, atque voluptate? Esse similique, quidem nisi, nihil reprehenderit earum maiores distinctio, corporis adipisci aliquid itaque debitis nemo et sit incidunt provident!</p>
             </article>
 
             <article>
                 <h3>Los alimentos</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, atque voluptate? Esse similique, quidem nisi, nihil reprehenderit earum maiores distinctio, corporis adipisci aliquid itaque debitis nemo et sit incidunt provident!</p>
+                <p class="centrar otroParrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, atque voluptate? Esse similique, quidem nisi, nihil reprehenderit earum maiores distinctio, corporis adipisci aliquid itaque debitis nemo et sit incidunt provident!</p>
             </article>
         </section>  
         <hr>    
@@ -87,6 +96,8 @@
    
     <footer>
         <h2>Soy el footer</h2>
+
+        <iframe src="" frameborder=""
     </footer>
     
 </body>
