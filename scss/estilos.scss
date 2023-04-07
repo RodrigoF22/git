@@ -1,0 +1,14 @@
+@import 'nav.scss';
+
+
+$color:green;
+$alto:250px;
+
+
+body{
+    background-color:$color;
+}
+
+p{
+    height: $alto;
+}
